@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas HTML</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+            width: 70%;
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #7F0303;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        td.nama {
+            text-align: left;
+        }
+
+        figure {
+            text-align: center;
+        }
+
+        img {
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        figcaption {
+            margin-top: 8px;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Data Mahasiswa</h1>
+
+    <!-- TABEL -->
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">No</th>
+                <th colspan="2">Identitas</th>
+                <th rowspan="2">Jurusan</th>
+            </tr>
+            <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td class="nama">Dessy</td>
+                <td>412410004</td>
+                <td>Sistem Informasi</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="nama">Devan</td>
+                <td>6783490</td>
+                <td>Informatika</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="nama">Chiara</td>
+                <td>1125823</td>
+                <td>Hubungan Internasional</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="nama">Faija</td>
+                <td>4300629</td>
+                <td>Antropologi Sosial</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="nama">Sidabutar</td>
+                <td>7723829</td>
+                <td>Hukum</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td class="nama">Bella</td>
+                <td>354920</td>
+                <td>Ilmu Komunikasi</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <!-- GAMBAR -->
+    <h2>Contoh Gambar</h2>
+
+    <figure>
+        <img src="Arrivo al Campus.jpg" alt="Contoh Gambar" width="300">
+        <figcaption>Gambar Contoh Mahasiswa Belajar</figcaption>
+    </figure>
+
+</body>
+</html>
